@@ -5,13 +5,14 @@ import Animation2 from "./animations/animation2";
 import Animation3 from "./animations/animation3";
 import Animation4 from "./animations/animation4";
 import { Animation5 } from "./animations/animation5";
+import { Animation6 } from "./animations/animation6";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Animation5 />
-      <StatusBar style="auto" />
-    </View>
+    // <View style={styles.container}>
+    <Animation6 />
+    // <StatusBar style="auto" />
+    // </View>
   );
 }
 
